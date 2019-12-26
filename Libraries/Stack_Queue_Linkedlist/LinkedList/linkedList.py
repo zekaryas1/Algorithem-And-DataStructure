@@ -1,8 +1,5 @@
 # start
-class Node:
-    def __init__(self, value):
-        self.data = value
-        self.next = None
+from Libraries.Stack_Queue_Linkedlist.LinkedList.Node import Node
 
 
 class LinkedList:
@@ -14,11 +11,11 @@ class LinkedList:
 
     def add(self, data):
         newNode = Node(data)
-        if self.head == None:
+        if self.head is None:
             self.head = newNode
         else:
             current = self.head
-            while current.next != None:
+            while current.next is not None:
                 current = current.next
             current.next = newNode
 
@@ -37,7 +34,7 @@ class LinkedList:
     def __str__(self):
         kl = []
         current = self.head
-        while current.next != None:
+        while current.next is not None:
             kl.append(current.data)
             current = current.next
         kl.append(current.data)
@@ -49,7 +46,7 @@ def breakInHalf(head):
     pointer2 = head
     while pointer2.next is not None:
         pointer2 = pointer2.next.next
-        if pointer2 == None:
+        if pointer2 is None:
             break
         pointer1 = pointer1.next
 
@@ -78,7 +75,7 @@ if __name__ == '__main__':
     # linkedList.add(17)
     print(linkedList)
 
-    headofLinked  = breakInHalf(linkedList.getHead())
+    headofLinked = breakInHalf(linkedList.getHead())
 
     print(linkedList)
 
@@ -86,4 +83,3 @@ if __name__ == '__main__':
         print(headofLinked.data)
         headofLinked = headofLinked.next
     print(headofLinked.data)
-

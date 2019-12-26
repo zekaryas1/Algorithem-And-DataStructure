@@ -16,7 +16,7 @@ class Heap:
         self.HeapifyUp()
 
     def HeapifyUp(self):
-        index = self.count-1
+        index = self.count - 1
         while self.Array[index] < self.Array[self.getParentIndex(index)] and index != 0:
             self.swap(index, self.getParentIndex(index))
             index = self.getParentIndex(index)
@@ -25,15 +25,15 @@ class Heap:
         minElt = self.Array[0]
         self.count -= 1
         self.swap(0, self.count)
-        self.Array[self.count+1] = None
+        self.Array[self.count + 1] = None
         self.HeapifyDown()
         return minElt
 
     def HeapifyDown(self):
         index = 0
-        while self.getLeftChildIndex(index)<self.capacity() and self.getLeftChildIndex(index)!=None:
+        while self.getLeftChildIndex(index) < self.capacity() and self.getLeftChildIndex(index) != None:
             smallerelt = self.getLeftChildIndex(index)
-            if self.getRightChildIndex(index)<self.capacity() and self.Array[self.getRightChildIndex(index)]!=None:
+            if self.getRightChildIndex(index) < self.capacity() and self.Array[self.getRightChildIndex(index)] != None:
                 if self.Array[self.getLeftChildIndex(index)] > self.Array[self.getRightChildIndex(index)]:
                     smallerelt = self.getRightChildIndex(index)
             # print(index)
@@ -72,5 +72,5 @@ if __name__ == '__main__':
     minHeap.add(5)
     minHeap.add(2)
     for i in range(4):
-        print("min ",minHeap.extract_min())
+        print("min ", minHeap.extract_min())
     print(minHeap)

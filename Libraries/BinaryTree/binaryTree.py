@@ -1,9 +1,12 @@
-from ListQueue import Queue
+from Libraries.Stack_Queue_Linkedlist.Stack_And_Queue_With_Node.Queue import Queue
+
+
 class Node:
     def __init__(self, data):
         self.data = data
         self.left = None
         self.right = None
+
 
 # deapth first traversal
 def preorderTraversal(subtree):
@@ -11,31 +14,35 @@ def preorderTraversal(subtree):
         print(subtree.data)
         inorderTraversal(subtree.left)
         inorderTraversal(subtree.right)
+
+
 def inorderTraversal(subtree):
     if subtree is not None:
         inorderTraversal(subtree.left)
         print(subtree.data)
         inorderTraversal(subtree.right)
+
+
 def postorderTraversal(subtree):
     if subtree is not None:
         inorderTraversal(subtree.left)
         inorderTraversal(subtree.right)
         print(subtree.data)
+
+
 # breadth first traversal
 
 def BFT(root):
-    q = Queue();
-    q.enqueue(root)
+    q = Queue()
+    q.enQueue(root)
 
     while not q.isEmpty():
-        node = q.dequeue()
+        node = q.deQueue()
         print(node.data)
         if node.left is not None:
-            q.enqueue(node.left)
+            q.enQueue(node.left)
         if node.right is not None:
-            q.enqueue(node.right)
-
-
+            q.enQueue(node.right)
 
 
 if __name__ == '__main__':
