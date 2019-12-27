@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b13b392e-93ea-4bbe-87c9-7fbca7d4b115" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Libraries/Sort/Selection insertion and bubble sorts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/Sort/mergeSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/Sort/quickSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/Sort/radixSort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/LinkedList/Node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/Stack_And_Queue_With_Node/Queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/Stack_And_Queue_With_Node/Stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AlgorithemEx.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AlgorithemEx.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b13b392e-93ea-4bbe-87c9-7fbca7d4b115" name="Default" comment="changed project structure&#10;removed unnecessary files &#10;used stack and queue created with nodes">
+      <change afterPath="$PROJECT_DIR$/Python_Tricks/Looping Techniques.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Tricks/Random.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Tricks/String formating.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Tricks/python buit in queue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTreeAllFunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/BinaryTree/BinaryTreeAllFunc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListQueue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListStack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyMinHeap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Heap/MyMinHeap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringBuilder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/binaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/BinaryTree/binaryTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/directorySize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/LinkedList/linkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parenthesis_Checking.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/priorityQueueWithLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/priorityQueueWithLinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sorts.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +23,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="627" />
-    <option name="y" value="112" />
-    <option name="width" value="1364" />
-    <option name="height" value="766" />
   </component>
   <component name="ProjectId" id="1VXXDNVAS3Z3YlskUXnCK1fZmTV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -77,8 +53,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.priorityQueueWithLinkedList">
-    <configuration name="BinaryTreeAllFunc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.python buit in queue">
+    <configuration name="Looping Techniques" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgorithemEx" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,12 +62,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Libraries/BinaryTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Tricks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Libraries/BinaryTree/BinaryTreeAllFunc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Tricks/Looping Techniques.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MyMinHeap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Random" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgorithemEx" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,12 +84,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Libraries/Heap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Tricks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Libraries/Heap/MyMinHeap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Tricks/Random.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binaryTree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="String formating" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AlgorithemEx" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,34 +106,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Libraries/BinaryTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Tricks" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Libraries/BinaryTree/binaryTree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="linkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AlgorithemEx" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/LinkedList" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/LinkedList/linkedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Tricks/String formating.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,20 +142,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="python buit in queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AlgorithemEx" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Tricks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Tricks/python buit in queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.linkedList" />
-      <item itemvalue="Python.binaryTree" />
-      <item itemvalue="Python.BinaryTreeAllFunc" />
-      <item itemvalue="Python.MyMinHeap" />
       <item itemvalue="Python.priorityQueueWithLinkedList" />
+      <item itemvalue="Python.Looping Techniques" />
+      <item itemvalue="Python.String formating" />
+      <item itemvalue="Python.Random" />
+      <item itemvalue="Python.python buit in queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python buit in queue" />
+        <item itemvalue="Python.Random" />
+        <item itemvalue="Python.String formating" />
+        <item itemvalue="Python.Looping Techniques" />
         <item itemvalue="Python.priorityQueueWithLinkedList" />
-        <item itemvalue="Python.linkedList" />
-        <item itemvalue="Python.MyMinHeap" />
-        <item itemvalue="Python.BinaryTreeAllFunc" />
-        <item itemvalue="Python.binaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -215,8 +191,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534159857184</updated>
-      <workItem from="1577400296953" duration="3265000" />
+      <workItem from="1577400296953" duration="4986000" />
     </task>
+    <task id="LOCAL-00001" summary="changed project structure&#10;removed unnecessary files &#10;used stack and queue created with nodes">
+      <created>1577403662356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577403662356</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,16 +217,24 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed project structure&#10;removed unnecessary files &#10;used stack and queue created with nodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed project structure&#10;removed unnecessary files &#10;used stack and queue created with nodes" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$Looping_Techniques.coverage" NAME="Looping Techniques Coverage Results" MODIFIED="1577404128102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Tricks" />
+    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$python_buit_in_queue.coverage" NAME="python buit in queue Coverage Results" MODIFIED="1577405583944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Tricks" />
+    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$Random.coverage" NAME="Random Coverage Results" MODIFIED="1577405314966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Tricks" />
+    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$BinaryTreeAllFunc__1_.coverage" NAME="BinaryTreeAllFunc (1) Coverage Results" MODIFIED="1577403227505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/BinaryTree" />
+    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$String_formating.coverage" NAME="String formating Coverage Results" MODIFIED="1577404279871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Tricks" />
+    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$binaryTree.coverage" NAME="binaryTree Coverage Results" MODIFIED="1577403491424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/BinaryTree" />
+    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$mergeSort.coverage" NAME="mergeSort Coverage Results" MODIFIED="1577403289495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/Sort" />
     <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$linkedList.coverage" NAME="linkedList Coverage Results" MODIFIED="1577403522257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/LinkedList" />
     <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$BinaryTreeAllFunc.coverage" NAME="BinaryTreeAllFunc Coverage Results" MODIFIED="1577403498389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/BinaryTree" />
     <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$radixSort.coverage" NAME="radixSort Coverage Results" MODIFIED="1577403337401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/Sort" />
-    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$BinaryTreeAllFunc__1_.coverage" NAME="BinaryTreeAllFunc (1) Coverage Results" MODIFIED="1577403227505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/BinaryTree" />
     <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$Stack.coverage" NAME="Stack Coverage Results" MODIFIED="1577402400117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/Stack_And_Queue_With_Node" />
-    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$binaryTree.coverage" NAME="binaryTree Coverage Results" MODIFIED="1577403491424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/BinaryTree" />
     <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$MyMinHeap.coverage" NAME="MyMinHeap Coverage Results" MODIFIED="1577403504228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/Heap" />
     <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$Queue.coverage" NAME="Queue Coverage Results" MODIFIED="1577403107331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist/Stack_And_Queue_With_Node" />
     <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$priorityQueueWithLinkedList.coverage" NAME="priorityQueueWithLinkedList Coverage Results" MODIFIED="1577403547822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/Stack_Queue_Linkedlist" />
-    <SUITE FILE_PATH="coverage/Algorithem_And_DataStructure$mergeSort.coverage" NAME="mergeSort Coverage Results" MODIFIED="1577403289495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Libraries/Sort" />
   </component>
 </project>
